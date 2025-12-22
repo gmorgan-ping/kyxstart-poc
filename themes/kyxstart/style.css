@@ -34,7 +34,7 @@
     --heading-text-color: 32, 58, 94;
     
     /*  MUTED TEXT ALPHA  */
-    --text-color-muted-apha: 0.75;
+    --text-color-muted-alpha: 0.75;
 
     /*  ERROR FONT COLOR  */
     --text-color-error: rgb(163, 19, 0);
@@ -86,7 +86,7 @@
     * APPLYING TEXT COLOR - DO NOT CHANGE
     *********************************************************/
     /* H1,H2, H3, Body text color */
-    --bs-body-color: rgb(var(--text-color-main)) !important;
+    --bs-body-color: rgb(var(--text-color-primary)) !important;
     --bs-danger-rgb: var(--text-color-error);
   }
 
@@ -131,7 +131,7 @@
 
 /*  MUTED PARAGRAPH  */
 .end-user-nano p.text-muted {
-  color: rgba(var(--text-color-primary), var(--text-color-muted-apha)) !important;
+  color: rgba(var(--text-color-primary), var(--text-color-muted-alpha)) !important;
 }
 
 /*  ERROR MESSAGE PARAGRAPH  */
@@ -148,7 +148,7 @@
 
 /*  FORM CONTROL PLACEHOLDER FONT COLOR  */
 .end-user-nano .form-floating input+label {
-  color: rgba(var(--text-color-primary), var(--text-color-muted-apha)) !important;
+  color: rgba(var(--text-color-primary), var(--text-color-muted-alpha)) !important;
 }
 
 /*  FORM CONTROL HIGHLIGHT  */
@@ -178,7 +178,6 @@
   color: var(--button-primary-text-color) !important;
   border-radius: var(--button-primary-border-radius) !important;
 }
-
 
 .end-user-nano button.btn-primary:hover {
   background-color: rgba(var(--button-primary-background-color), var(--button-hover-alpha)) !important;
