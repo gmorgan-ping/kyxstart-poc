@@ -91,6 +91,10 @@
   --bs-danger-rgb: var(--text-color-error-rgb);
 }
 
+.bg-light>div {
+  left: 270px;
+  position: fixed;
+}
 
 /********************************************************
 * CLASSES BELOW ARE DERIVED FROM VALUES ABOVE
